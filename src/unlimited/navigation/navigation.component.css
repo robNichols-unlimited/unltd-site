@@ -1,0 +1,44 @@
+nav.sidebar .navbar-nav > li {
+    list-style: none;
+    border-bottom: 1px #F2F4F3 solid;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+nav.sidebar .navbar-collapse, nav.sidebar .container-fluid {
+    padding: 0;
+}
+
+nav.sidebar {
+    left: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 100;
+    margin-top: -6px;
+    margin-bottom: 0;
+    position: fixed;
+    border-radius: 0;
+    background-color: #0E1D25;
+}
+
+nav.sidebar li {
+    width: 100%;
+}
+nav.sidebar a {
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-size: 18px;
+    padding: 5px 0;    
+}
+
+nav.sidebar a i {
+    font-size: 24px;
+}
+
+a {
+    color: #F2F4F3;
+}
+
+a:hover, a:active {
+    color: #EADEB8;    
+    text-decoration: none;    
+}
